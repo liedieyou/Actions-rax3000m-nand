@@ -155,7 +155,7 @@ jobs:
       run: |
         
         [ -e files ] && mv files openwrt/files
-        cat configs/X86.config >> openwrt/.config
+        cat configs/test.config >> openwrt/.config
         cd openwrt && make defconfig
         
         #./scripts/diffconfig.sh > diff.config

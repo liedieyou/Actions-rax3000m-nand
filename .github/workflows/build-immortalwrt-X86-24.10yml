@@ -115,7 +115,6 @@ jobs:
         ln -s /mnt/openwrt/dl /workdir/openwrt/dl
         ln -s /mnt/openwrt/feeds /workdir/openwrt/feeds
         ln -s /mnt/openwrt/build_dir /workdir/openwrt/build_dir
-        df -h
 
     #改名了
     - name: 开启缓存
